@@ -21,7 +21,7 @@ class CreateOrdersTable extends Migration
             $table->double('cost');
             $table->bigInteger('payment_type_id');
             $table->text('address');
-            $table->smallInteger('confirmed'); //boolean?
+            $table->unsignedSmallInteger('confirmed');
             $table->bigInteger('order_receipt_type_id');
             $table->timestamps();
 

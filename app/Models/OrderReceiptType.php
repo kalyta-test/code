@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
  * @package App\Models
  * @property int id
  * @property string name
- * @property string time ?
+ * @property Carbon time 
  */
 class OrderReceiptType extends Model
 {
